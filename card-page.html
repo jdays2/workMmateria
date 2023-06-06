@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>???</title>
+</head>
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="burger">
+                <input id="menu__toggle" type="checkbox" ></input>
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+            </div>
+            <div class="header__logo-mob">
+                <img src="./img/icon/logo.svg" alt="">
+            </div>
+            <nav class="header__nav">
+                <ul class="header__lists">
+                    <li class="header__item open-block"><a href="#">Готовая продукция</a></li>
+                    <li class="header__item"><a href="">На заказ</a></li>
+                    <li class="header__item"><a href="">О компании</a></li>
+                    <a href="" class="header__logo">
+                        <img src="./img/icon/logo.svg" alt="">
+                    </a>
+                    <!-- logo -->
+                    <li class="header__item"><a href="">Доставка и оплата</a></li>
+                    <li class="header__item"><a href="">Контакты</a></li>
+                    <li class="header__item modal-open"><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
+            <button class="header__basket">
+                <svg  viewBox="0 0 25 24"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.8125 7.47709V6.53149C7.8125 4.33808 9.69792 2.18367 12.0417 1.97896C14.8333 1.7255 17.1875 3.78242 17.1875 6.34627V7.69155"  stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.3747 21.4466H15.6247C19.8122 21.4466 20.5622 19.8771 20.7809 17.9664L21.5622 12.1173C21.8434 9.73871 21.1143 7.79877 16.6664 7.79877H8.33303C3.88511 7.79877 3.15595 9.73871 3.4372 12.1173L4.21845 17.9664C4.4372 19.8771 5.1872 21.4466 9.3747 21.4466Z"  stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+        </div>
+    </div>
+    <!-- container -->
+    <div class="header__block">
+        <div class="header__block-mob-c">
+            <div class="header__block-mob-c-text">Категории товаров</div>
+            <div class="header__block-mob-c-close">
+                <img src="./img/header/xxx.svg" alt="">
+            </div>
+        </div>
+        <div class="header__block-global">
+            <div class="header__block-inner">
+                <div class="header__block-inner-title">
+                    Каталог
+                </div>
+    
+                <ul class="header__block-lists">
+                    <li><a href="">Картины</a></li>
+                    <li><a href="">Книги и ежедневники</a></li>
+                    <li><a href="">Календари</a></li>
+                    <li><a href="">Дипломы и сертификаты</a></li>
+                    <li><a href="">Визитки</a></li>
+                    <li><a href="">Скетчбуки</a></li>
+                    <li><a href="">Блокноты</a></li>
+                    <li><a href="">Подставки в ректоран и кафе</a></li>
+                    <li><a href="">Подставки под ноутбук</a></li>
+                    <li><a href="">Откртытки</a></li>
+                    <li><a href="">Упаковки</a></li>
+                    <li><a href="">Бирки</a></li>
+                </ul>
+            </div>
+           <!--  -->
+           <div class="header__block-wrapper">
+                <div class="header__block-wrapper-product">
+                    <div class="header__block-wrapper-product-title">
+                        Специальные предложения
+                    </div>
+                    <div class="header__block-wrapper-product-image">
+                        <img src="./img/header/header1.png" alt="">
+                    </div>
+                    <a href="" class="link">Подробнее</a>
+                </div>
+                <!--  -->
+                <div class="header__block-wrapper-product">
+                    <div class="header__block-wrapper-product-title">
+                        Новинки
+                    </div>
+                    <div class="header__block-wrapper-product-image">
+                        <img src="./img/header/header2.png" alt="">
+                    </div>
+                    <a href="" class="link">Подробнее</a>
+                </div>
+                <!--  -->
+                <div class="header__block-wrapper-product">
+                    <div class="header__block-wrapper-product-title">
+                        подарочные сертификаты
+                    </div>
+                    <div class="header__block-wrapper-product-image">
+                        <img src="./img/header/header3.png" alt="">
+                    </div>
+                    <a href="" class="link">Подробнее</a>
+                </div>
+                <!--  -->
+           </div>
+        </div>
+        <!-- global -->
+    </div>
+</header>
+	
+	
+	<main>
+		<section class="card-main">
+    <div class="container">
+        <div class="card-main__wrapper">
+            <div class="card-main__left">
+                <div class="card-main__left-block">
+                    <div class="card-main__left-swiper swiper">
+                        <div class="card-main__left-swiper-wrapper swiper-wrapper">
+                           
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card1.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-slide-content">
+                                        <img src="./img/card/card5.png" alt="">
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- swiper-one -->
+                    <div class="card-main__left-swiper-two swiper">
+                        <div class="card-main__left-swiper-two-wrapper swiper-wrapper">
+                           
+                                <div class="card-main__left-swiper-two-slide swiper-slide">
+                                    <div class="card-main__left-swiper-two-slide-content">
+                                        <img src="./img/card/card5.png" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-two-slide-content">
+                                        <img src="./img/card/card1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-two-slide-content">
+                                        <img src="./img/card/card2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-two-slide-content">
+                                        <img src="./img/card/card3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-main__left-swiper-slide swiper-slide">
+                                    <div class="card-main__left-swiper-two-slide-content">
+                                        <img src="./img/card/card4.png" alt="">
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                    <!-- swiper-one -->
+
+                   
+                </div>
+                <div class="pagination-elem card-main__pagination">
+                    
+                    <div class="pagination-elem__arrows card-main__arrows ">
+                        <div class="pagination-elem__prev card-main__prev">
+                            
+                        </div>
+                        <div class="pagination-elem__bullets card-main__bullets">
+    
+                        </div>
+                        <div class="pagination-elem__next card-main__next">
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- left -->
+            <div class="card-main__right">
+                <div class="card-main__right-left">
+                    <div class="card-main__right-left-title">
+                        Фактурная абстракция
+                    </div>
+                    <div class="card-main__left-right-text">
+                        <p>Натуральный льняной холст с натяжкой на художественный подрамник.</p>                           
+                        <p>100% ручная работа.</p>
+                        <p>Выберите один из шести стандартных размеров или для расчета стоимости картины по нестандартному размеру свяжитесь с нами</p>
+                    </p>
+                    </div>
+                    <a href="" class="card-main__left-right-btn">
+                        <span>в корзину</span>
+                    </a>
+                    <div class="card-main__right-left-inner">
+                        <strong>Размер</strong>
+                        <div class="card-main__select">
+                            <input class="card-main__select-input" type="hidden" name="">
+                            <div class="card-main__select-head">70х70 см</div>
+                            <ul class="card-main__select-list">
+                                <li class="card-main__select-item">50х70 см</li>
+                                <li class="card-main__select-item">90х90 см</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-main__info">
+                        <strong>Стиль</strong>
+                        <span>Абстрактный</span>
+                    </div>
+                    <div class="card-main__info">
+                        <strong>срок написания</strong>
+                        <span>3-7 дней</span>
+                    </div>
+                    <div class="card-main__price">
+                        <strong>стоимость</strong>
+                        <span>100.000 р.</span>
+                    </div>
+                </div>
+                <div class="card-main__right-right">
+                    <div class="card-main__right-right-text">
+                        <p>Натуральный льняной холст с натяжкой на художественный подрамник.</p>                           
+                        <p>100% ручная работа.</p>
+                        <p>Выберите один из шести стандартных размеров или для расчета стоимости картины по нестандартному размеру свяжитесь с нами</p>
+                    </p>
+                    </div>
+                    <a href="" class="card-main__right-right-btn">
+                        <span>в корзину</span>
+                    </a>
+                </div>
+            </div>
+            <!-- right -->
+        </div>
+    </div>
+</section>
+		<section class="card-description">
+    <div class="container">
+        <div class="card-description__wrapper">
+            <div class="card-description__block">
+                <div class="card-description__title">
+                    О ТОВАРЕ
+                </div>
+                <div class="card-description__inner">
+                    <div class="card-description__info">
+                        <div class="card-description__info-size">
+                            <span>Размер</span>
+                            <strong>70cm x 80cm </strong>
+                        </div>
+                        <div class="card-description__info-materia">
+                            <span>Материал</span>
+                            <strong>натуральный холст, акриловые/масляные краски, текстурная паста</strong>
+                        </div>
+                        <div class="card-description__info-weight">
+                            <span>Вес в упаковке</span>
+                            <strong>	16 кг</strong>
+                        </div>
+                    </div>
+                    <div class="card-description__inner-desk">
+                            <p>Абстрактная работа 'Белые пионы' написана масляными красками на льняном холсте, натянутом на деревянный подрамник. Картина написана художником студии LA KARTINA полностью вручную, с использованием золотой потали (декоративных листов металлов, имитирующих настоящее золото).</p>                                
+                            <p>Наши художники напишут для вас картину в любом размере. Вы можете заказать вертикальную, горизонтальную, квадратную картину, либо даже круглую или овальную - художник доработает композицию картины, чтобы она смотрелась гармонично в выбранном формате.</p>
+                            <p>Также можно внести изменения в цветовую гамму картины, чтобы она более точно соответствовала цветам вашего интерьера. Картина идеально впишется в то место, где вы планируете ее повесить!</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card-description__block">
+                <div class="card-description__title">
+                    доставка и оплата
+                </div>
+                <div class="card-description__text">
+                    <div class="card-description__text-left">
+                        <strong>оплата</strong>
+                        <p>Внести оплату можно как наличными в студии, так и безналичным способом: перечислением оплаты на банковскую карту или на расчетный счет.</p>
+                        <p>При написании картины на заказ, оплата производится в два этапа. После оформления заказа и обсуждения всех пожеланий вам нужно внести предоплату в размере не менее 6 000 рублей. Оставшуюся сумму можно оплатить после того, как картина будет готова.</p>
+                    </div>
+                    <div class="card-description__text-right">
+                        <strong>доставка</strong>
+                        <p>Забрать самому. Вы можете забрать картину из нашей студии по адресу: Холодильный переулок 3к1, стр.3, ежедневно с 10 до 20 часов.</p>
+                        <p>Доставка курьером. Мы доставляем наши картины до двери по  всему миру. Стоимость и сроки доставки рассчитываются индивидуально в зависимости от адреса доставки и размера картины.</p>
+                        <p>Доставка по России и в другие страны. Сроки и стоимость доставки рассчитываются по условиям и тарифам транспортной компании.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="see">
+    <div class="container">
+        <div class="see__title">
+            <div class="title">смотрите так же</div>
+        </div>
+       
+
+        <div class="see__wrapper">
+            <article class="art">
+                <div class="art__image">
+                    <img src="./img/catalog/art1.png" alt="">
+                </div>
+                <div class="art__name">Фактурная абстракция</div>
+                <div class="art__price">100.000 р.</div>
+            </article>
+            <article class="art">
+                <div class="art__image">
+                    <img src="./img/catalog/art2.png" alt="">
+                </div>
+                <div class="art__name">Фактурная абстракция</div>
+                <div class="art__price">100.000 р.</div>
+            </article>
+            <article class="art">
+                <div class="art__image">
+                    <img src="./img/catalog/art3.png" alt="">
+                </div>
+                <div class="art__name">Фактурная абстракция</div>
+                <div class="art__price">100.000 р.</div>
+            </article>
+            <article class="art">
+                <div class="art__image">
+                    <img src="./img/catalog/art2.png" alt="">
+                </div>
+                <div class="art__name">Фактурная абстракция</div>
+                <div class="art__price">100.000 р.</div>
+            </article>
+        </div>
+    </div>
+</section>
+	</main>
+	<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__top">
+                <div class="footer__top-left">
+                    <a href="" class="footer__logo">
+                        <img src="./img/footer/logo.svg" alt="">
+                    </a>
+                    <ul class="footer__top-left-lists">
+                        <li><a href="">Готовая продукция</a></li>
+                        <li><a href="">Доставка и оплата</a></li>
+                        <li><a href="">На заказ</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">О компании</a></li>
+                        
+                        <li><a href="">Корзина</a></li>
+                    </ul>
+                </div>
+                <div class="footer__top-right">
+                    <div class="footer__info">
+                        <div class="footer__info-address">
+                            г. Москва, метро "Автозаводская". БЦ "Омега Плаза". Ленинская слобода 19. 2 этаж, офис 2034/2
+                        </div>
+                        <div class="footer__info-date">
+                            Пн-Пт: 11:00 - 19:00  
+                        </div>
+                        <a href="" class="footer__info-phone">+7 499 647 99 97</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-socials">
+                    <a href="">
+                        <img src="./img/social/vk.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/social/insta.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/social/you.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__bottom-policy">
+                    Все права защищены 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+<div class="modal">
+    <div class="modal__container">
+        <div class="modal__wrapper">
+                <div class="modal__close">
+                    <img src="./img/xxx.svg" alt="">
+                </div>
+                <div class="modal__title">
+                    оставьте заявку
+                </div>
+                <form action="" class="modal__form">
+                    <div class="modal__form-inner">
+                        <input type="text" placeholder="Ваше имя *">
+                    </div>
+                    <div class="modal__form-inner">
+                        <input type="text" placeholder="Ваш телефон *">
+                    </div>
+                    <div class="modal__form-inner">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="modal__check-inner">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="custom-checkbox__input visually-hidden">
+                            <span class="custom-checkbox__text"></span>
+                        </label>
+                        <div class="modal__check-inner-text">
+                            Я согласен(а) на обработку персональных данных
+                        </div> 
+                    </div>
+                    
+                    <a href="" class="modal__link">
+                        <span>Отправить</span>
+                    </a>
+                </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal-thanks">
+    <div class="modal-thanks__container">
+        <div class="modal-thanks__close">
+            <img src="./img/xxx.svg" alt="">
+        </div>
+        <div class="modal-thanks__wrapper">
+            <div class="title">
+                спасибо за ваше обращение
+            </div>
+            <span>Наш менеджер свяжется с вами</span>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script defer src="./js/choices.min.js"></script>
+<script defer src="./js/main.js"></script>
+<script defer src="./js/jq-script.js"></script>
+<script defer src="./js/map.js"></script>
+
+
+</body>
+
+</html>
